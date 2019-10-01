@@ -3,7 +3,7 @@ const menuBtn = document.querySelector(".menu-btn");
 const menu = document.querySelector(".menu");
 const menuBranding = document.querySelector(".menu-branding");
 const menuNav = document.querySelector(".menu-nav");
-const navItem = document.querySelectorAll(".nav-items");
+const navItem = document.querySelectorAll(".nav-item");
 
 //Set Initial State of Menu
 let showMenu = false; //we use let because we want to directly reassing it in certain times. You can't do that with const
